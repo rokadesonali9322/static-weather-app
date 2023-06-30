@@ -1,0 +1,111 @@
+.weather .rightside {
+  width: 60rem;
+  height: 42rem;
+  background-color: #e4f1ff;
+  border-radius: 45px;
+  padding: 1.5rem;
+}
+
+.rightside .right_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right_text h3 {
+  letter-spacing: 0.8px;
+  word-spacing: 1.5px;
+  line-height: 30px;
+  color: rgb(44, 44, 44);
+}
+.right_text h4 {
+  letter-spacing: 0.8px;
+  word-spacing: 1.3px;
+  color: rgb(116, 114, 114);
+}
+.right_img img {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.upcoming_hours {
+  height: 27vh;
+  margin: 0.8rem 0;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.up_hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+}
+.upcoming_hours button {
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  margin-right: 1rem;
+  border-radius: 6px;
+  color: rgb(151, 151, 151);
+  font-size: 0.8rem;
+}
+.next {
+  margin-left: 1rem;
+  color: black !important;
+}
+.daily_hours .hours_data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.6rem;
+}
+.daily_hours .hours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.daily_hours img {
+  padding-left: 1.4rem;
+}
+
+.weather_cards {
+  width: 56rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.weather_cards .wea_cards {
+  background-color: #ffffff;
+  width: 15rem;
+  height: 18vh;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 2rem !important;
+}
+.wea_cards .wet_icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #5c9ce5;
+  float: right;
+  text-align: center;
+  border-radius: 8px;
+}
+.humi p {
+  text-align: center;
+  padding: 0.8rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.humi span {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.wet_icon {
+  color: white;
+}
+.humi h3 {
+  padding-top: 2px;
+}

@@ -1,0 +1,9 @@
+.weather {
+  height: 42rem !important;
+  width: 80rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c9ce5;
+  border-radius: 45px;
+}
